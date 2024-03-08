@@ -1,6 +1,6 @@
 region = "us-west-2"
 
-ami = "ami-07d9b9ddc6cd8dd30"
+ami = "ami-0f7197c592205b389"
 
 instance_type = "t2.micro"
 
