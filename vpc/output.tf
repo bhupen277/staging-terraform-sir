@@ -1,3 +1,3 @@
 output "look at me" {
-  value = 
+  value = here all done
 }
