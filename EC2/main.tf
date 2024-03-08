@@ -14,7 +14,9 @@ terraform {
   }
 }
 
-
+resource "" "name" {
+  
+}
 
 
 
