@@ -1,3 +1,3 @@
-output "look" {
-  
+output "look at me" {
+  value = 
 }
