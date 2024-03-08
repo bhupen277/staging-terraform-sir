@@ -3,7 +3,7 @@ variable "region" {
   description = "providing my refion for project"
 }
 
-variable "vpc_cidr" {
+variable "ami" {
   type = number
   description = "providing vpc IP address"
 }
