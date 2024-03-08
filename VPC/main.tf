@@ -19,6 +19,7 @@ resource "aws" "server" {
   instance_type = var.instance_type
   key_pair = var.key_pair
   tags {
-    Name = 
+    Name = AK-server
+    Env = Upwaas
   }
 }
