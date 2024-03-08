@@ -5,5 +5,5 @@ variable "region" {
 
 variable "ami" {
   type = string
-  description = "providing vpc IP address"
+  description = "providing ami id to server"
 }
