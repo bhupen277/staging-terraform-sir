@@ -14,10 +14,10 @@ terraform {
   }
 }
 
+
 resource "" "name" {
   
 }
-
 
 
 
