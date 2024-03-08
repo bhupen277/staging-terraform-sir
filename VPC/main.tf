@@ -15,8 +15,8 @@ terraform {
 }
 
 resource "aws_vpc" "main" {
-  tags = {
   cidr = var.cidr_block
+  tags = {
     Name = "$(MotoGP).VPC"
   }
 }
