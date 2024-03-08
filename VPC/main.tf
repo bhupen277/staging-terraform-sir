@@ -10,7 +10,7 @@ terraform {
     bucket = "terraform.tfstateoregon"
     key    = "terraform.tfstate"
     region = "ap-south-1"
-#    dynamodb_table = "terraform-staging"
+    dynamodb_table = "terraform-staging"
   }
 }
 
