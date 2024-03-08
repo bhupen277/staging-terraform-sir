@@ -7,3 +7,7 @@ variable "ami" {
   type = string
   description = "providing ami id to server"
 }
+
+variable "instance_type" {
+  type = 
+}
