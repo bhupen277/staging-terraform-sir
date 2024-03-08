@@ -15,5 +15,5 @@ variable "instance_type" {
 
 variable "key_pair" {
   type = string
-  description = "value"
+  description = "providing my server key"
 }
