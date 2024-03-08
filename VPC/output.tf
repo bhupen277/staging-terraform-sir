@@ -1,3 +1,3 @@
 output "name" {
-  value
+  value = "aws"
 }
