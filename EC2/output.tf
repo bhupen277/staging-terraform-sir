@@ -1,3 +1,3 @@
-output "public_ip" {
-  value = "M server is ready for deploy using terraform"
-}
+# output "public_ip" {
+#   value = "M server is ready for deploy using terraform"
+# }
