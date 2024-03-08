@@ -12,3 +12,7 @@ variable "instance_type" {
   type = string
   description = "providing the server size"
 }
+
+variable "key" {
+  
+}
