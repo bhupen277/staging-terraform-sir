@@ -9,5 +9,6 @@ variable "ami" {
 }
 
 variable "instance_type" {
-  type = 
+  type = string
+  description = "providing the server size"
 }
