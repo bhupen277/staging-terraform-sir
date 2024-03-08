@@ -1,7 +1,7 @@
 provider "aws" {
     region = var.region
     shared_config_files      = ["/home/ubuntu/.aws/config"]
-    shared_credentials_files = ["/Users/tf_user/.aws/creds"]
+    shared_credentials_files = ["/home/ubuntu/.aws/creds"]
     profile                  = "customprofile"
 }
 
