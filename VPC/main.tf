@@ -15,5 +15,5 @@ terraform {
 }
 
 resource "aws" "server" {
-  
+  ami = 
 }
