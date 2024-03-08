@@ -1,7 +1,7 @@
 provider "aws" {
     region = var.region
-    shared_config_files      = ["/home/ubuntu/.aws/config"]
-    shared_credentials_files = ["/home/ubuntu/.aws/credentials"]
+    access_key = "my-access-key"
+    secret_key = "my-secret-key"
     profile                  = "config"
 }
 
