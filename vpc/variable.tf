@@ -1,3 +1,4 @@
 variable "region" {
-  type = 
+  type = string
+  description = "value"
 }
