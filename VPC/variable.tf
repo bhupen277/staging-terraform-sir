@@ -13,7 +13,7 @@ variable "instance_type" {
   description = "providing the server size"
 }
 
-variable "key_pair" {
+variable "key_name" {
   type = string
   description = "providing my server key"
 }
