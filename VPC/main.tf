@@ -1,8 +1,8 @@
 provider "aws" {
     region = var.region
-    access_key = "AKIA3E7G3SLOTRORYO5I"
-    secret_key = "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"
-#    profile    = "config"
+    shared_config_files      = ["/home/ubuntu/.aws/config"]
+    shared_credentials_files = ["/home/ubuntu/.aws/credentials"]
+    profile                  = "config"
 }
 
 terraform {
