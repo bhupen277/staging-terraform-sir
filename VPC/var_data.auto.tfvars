@@ -1,3 +1,3 @@
 region = "us-west-2"
 
-amami = "value" = "10.10.0.0/16"
+ami = "ami-07d9b9ddc6cd8dd30"
