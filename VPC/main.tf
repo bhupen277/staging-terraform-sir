@@ -14,7 +14,7 @@ terraform {
   }
 }
 
-resource "aws_" "server" {
+resource "aws_instance" "server" {
   ami = var.ami
   instance_type = var.instance_type
   key_pair = var.key_pair
