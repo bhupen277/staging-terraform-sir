@@ -4,6 +4,6 @@ variable "region" {
 }
 
 variable "ami" {
-  type = number
+  type = string
   description = "providing vpc IP address"
 }
