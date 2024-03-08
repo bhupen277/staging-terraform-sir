@@ -1,7 +1,7 @@
 provider "aws" {
     region = var.region
     access_key = "AKIA3E7G3SLOTRORYO5I"
-    secret_key = "my-secret-key"
+    secret_key = "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"
 #    profile    = "config"
 }
 
