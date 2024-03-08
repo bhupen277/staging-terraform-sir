@@ -17,7 +17,7 @@ terraform {
 resource "aws_instance" "server" {
   ami = var.ami
   instance_type = var.instance_type
-  key_pair = var.key_pair
+  key_name = var.key_name
   tags {
     Name = AK-server
     Env = Upwaas
