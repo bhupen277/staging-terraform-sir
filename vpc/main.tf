@@ -33,6 +33,6 @@ module "vpc" {
   }
 }
 
-resource "aws_sec" "name" {
+resource "aws_security_group" "mogo" {
   
 }
