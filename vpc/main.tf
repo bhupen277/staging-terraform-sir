@@ -33,6 +33,6 @@ module "vpc" {
   }
 }
 
-resource "aws_instance" "server" {
-  ami = 
+resource "security_group" "name" {
+  
 }
