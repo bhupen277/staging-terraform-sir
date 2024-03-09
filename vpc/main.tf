@@ -32,9 +32,3 @@ module "vpc" {
     Environment = "dev"
   }
 }
-
-resource "aws_security_group" "sg-1" {
-  name = "sg_name"
-  description = "This firewall allow my HTTP, HTTPS, SSH"
-  vpc_id = aws_vpc
-}
