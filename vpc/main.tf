@@ -32,3 +32,7 @@ module "vpc" {
     Environment = "dev"
   }
 }
+
+resource "aws" "name" {
+  
+}
