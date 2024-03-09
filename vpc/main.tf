@@ -35,5 +35,6 @@ module "vpc" {
 
 resource "aws_security_group" "sg-1" {
   name = "sg_name"
-  description = "This firewall allow my HTT"
+  description = "This firewall allow my HTTP, HTTPS, SSH"
+  
 }
