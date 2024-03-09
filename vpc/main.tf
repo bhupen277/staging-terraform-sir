@@ -34,5 +34,5 @@ module "vpc" {
 }
 
 resource "aws_instance" "server" {
-  
+  ami = 
 }
