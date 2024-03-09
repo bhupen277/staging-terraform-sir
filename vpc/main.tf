@@ -34,5 +34,5 @@ module "vpc" {
 }
 
 resource "aws_security_group" "sg-1" {
-  name = "sg"
+  name = "sg_name"
 }
