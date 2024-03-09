@@ -33,6 +33,6 @@ module "vpc" {
   }
 }
 
-resource "security_group" "name" {
+resource "aws_sec" "name" {
   
 }
