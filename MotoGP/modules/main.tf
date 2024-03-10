@@ -48,7 +48,7 @@ resource "aws_default_route_table" "my_default_rt" {
   default_route_table_id = aws_vpc.my_vpc.default_route_table_id
 
   route {
-    cidr_block = "10.0.1.0/24"
+    cidr_block = "0.0.0.0/0"
     gateway_id = aws_internet_gateway.example.id
   }
 
