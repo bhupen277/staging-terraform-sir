@@ -1,1 +1,1 @@
-# only variable 
+# only variable value we can pass from 
