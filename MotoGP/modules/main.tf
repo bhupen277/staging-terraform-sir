@@ -18,5 +18,6 @@ terraform {
 
 module "my_vpc_module" {
   source = "./modules/vpc
+  project = "
   
 }
