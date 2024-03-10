@@ -2,17 +2,11 @@ variable "count" {}
 
 variable "image_id" {}
 
-variable "instance_type" {
-  
-}
+variable "instance_type" {}
 
-variable "sg_ids" {
-  
-}
+variable "sg_ids" {}
 
-variable "key_name" {
-  
-}
+variable "key_name" {}
 
 variable "project" {
   
