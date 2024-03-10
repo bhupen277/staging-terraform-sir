@@ -5,5 +5,6 @@ resource "aws_instance" "foo" {
   key_name = var.key_name
   tags = {
     Name = ${var.project}-instance
+    enviorment = 
   }
 }
