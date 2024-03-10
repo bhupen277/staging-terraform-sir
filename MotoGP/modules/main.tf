@@ -17,5 +17,8 @@ terraform {
 # now we are calling the module from that folder
 
 module "my_vpc_module" {
-  source = "./"
+  source = "./module "name" {
+    source = ""
+    
+  }"
 }
