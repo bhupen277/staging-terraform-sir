@@ -22,7 +22,7 @@ variable "project" {
   
 }
 
-variable "subnet" {
+variable "enviorment" {
   
 }
 
