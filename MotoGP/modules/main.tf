@@ -39,3 +39,6 @@ resource "aws_internet_gateway" "my_igw" {
     enviorment = var.enviorment
   }
 }
+
+#Need the default-RT for VPC
+    #
