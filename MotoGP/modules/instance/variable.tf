@@ -14,7 +14,7 @@ variable "sg_ids" {
   
 }
 
-variable "" {
+variable "key_name" {
   
 }
 
