@@ -13,3 +13,4 @@ terraform {
     dynamodb_table = "terraform-staging"
   }
 }
+
