@@ -41,5 +41,5 @@ resource "aws_internet_gateway" "my_igw" {
 }
 
 #Need the default-RT for VPC
-    # aws_default_route_table: It will create using the pre ex
+    # aws_default_route_table: It will create using the pre existing mentioned vpc.id
     # aws_route_table
