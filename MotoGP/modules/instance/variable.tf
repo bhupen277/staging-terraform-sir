@@ -13,5 +13,7 @@ variable "enviorment" {}
 variable "subnet_id" {}
 
 
-variable "sg_ids" {}
+variable "sg_ids" {
+    type = []
+}
 
