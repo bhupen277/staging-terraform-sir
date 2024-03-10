@@ -7,7 +7,7 @@ resource "aws_vpc" "my_vpc" {
   }
 }
 
-# here we creating the private subnet of our vpc & refering the 
+# here we creating the private subnet of our vpc & refering the vpc_id using ar
 resource "aws_subnet" "private_subnet" {
   vpc_id     = aws_vpc.my_vpc.id
   cidr_block = "10.0.16.0/20"
