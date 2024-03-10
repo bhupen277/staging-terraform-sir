@@ -18,5 +18,7 @@ variable "key_name" {
   
 }
 
-
+variable "project" {
+  
+}
 
