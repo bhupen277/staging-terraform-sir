@@ -45,7 +45,7 @@ resource "aws_internet_gateway" "my_igw" {
     # aws_route_table: It will create a new route table
 
 resource "aws_default_route_table" "my_default_rt" {
-  default_route_table_id = aws_vpc.example.default_route_table_id
+  default_route_table_id = aws_vpc.my_default_rt.default_route_table_id
 
   route {
     cidr_block = "10.0.1.0/24"
