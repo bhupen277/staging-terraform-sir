@@ -3,6 +3,5 @@
 
 variable "project" {}
 variable "vpc_cidr" {}
-variable "enviorment" {
-  
-}
+variable "enviorment" {}
+
