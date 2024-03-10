@@ -44,7 +44,7 @@ resource "aws_internet_gateway" "my_igw" {
     # aws_default_route_table: It will create using the pre existing mentioned vpc.id
     # aws_route_table: It will create a new route table
 
-resource "aws_default_route_table" "example" {
+resource "aws_default_route_table" "my" {
   default_route_table_id = aws_vpc.example.default_route_table_id
 
   route {
