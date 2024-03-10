@@ -52,10 +52,10 @@ resource "aws_default_route_table" "my_default_rt" {
     gateway_id = aws_internet_gateway.my_igw.id
   }
 
-  route {
-    ipv6_cidr_block        = "::/0"
-    egress_only_gateway_id = aws_egress_only_internet_gateway.example.id
-  }
+#   route {
+#     ipv6_cidr_block        = "::/0"
+#     egress_only_gateway_id = aws_egress_only_internet_gateway.example.id
+#   }
 
   tags = {
     Name = "example"
