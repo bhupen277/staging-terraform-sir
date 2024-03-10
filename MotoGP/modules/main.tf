@@ -30,4 +30,11 @@ resource "aws_subnet" "public_subnet" {
   map_public_ip_on_launch = "true"   # by default our server is in private & but public server made public using the enable the public ip. 
 }
 
-# Need internet gateway to provide the internet to my 
+# Need internet gateway to provide the internet to my public subnet
+resource "aws_internet_gateway" "gw" {
+  vpc_id = aws_vpc.main.id
+
+  tags = {
+    Name = "main"
+  }
+}
