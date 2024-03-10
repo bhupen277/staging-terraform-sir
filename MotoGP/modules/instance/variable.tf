@@ -14,6 +14,6 @@ variable "subnet_id" {}
 
 
 variable "sg_ids" {
-    type = []
+    type = list
 }
 
