@@ -41,4 +41,4 @@ resource "aws_internet_gateway" "my_igw" {
 }
 
 #Need the default-RT for VPC
-    # aws_default
+    # aws_default_route_tbale
