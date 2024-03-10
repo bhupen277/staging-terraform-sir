@@ -14,3 +14,7 @@ variable "sg_ids" {
   
 }
 
+variable "" {
+  
+}
+
