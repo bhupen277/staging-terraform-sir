@@ -2,3 +2,4 @@
 #        will just initialize the variable & will pass the value from outside the vpc directory.
 
 variable "project" {}
+cidr_block
