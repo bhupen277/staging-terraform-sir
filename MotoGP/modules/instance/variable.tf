@@ -10,7 +10,5 @@ variable "key_name" {}
 
 variable "project" {}
 
-variable "enviorment" {
-  
-}
+variable "enviorment" {}
 
