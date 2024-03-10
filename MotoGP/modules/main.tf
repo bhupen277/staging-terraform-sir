@@ -27,5 +27,5 @@ resource "aws_subnet" "public_subnet" {
     Name = "${var.project}-private-subnet"
     enviorment = var.enviorment
   }
-  map_public_ip_on_launch = "true"
+  map_public_ip_on_launch = "true"   # by default our server is n 
 }
