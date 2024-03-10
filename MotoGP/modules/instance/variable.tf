@@ -2,7 +2,11 @@ variable "count" {
 
 }
 
-variable "ami" {
+variable "image_id" {
+  
+}
+
+variable "" {
   
 }
 
