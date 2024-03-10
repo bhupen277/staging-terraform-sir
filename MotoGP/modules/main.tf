@@ -31,8 +31,8 @@ resource "aws_subnet" "public_subnet" {
 }
 
 # Need internet gateway to provide the internet to my public subnet
-resource "aws_internet_gateway" "gw" {
-  vpc_id = aws_vpc.main.id
+resource "aws_internet_gateway" "my_igw" {
+  vpc_id = aws
 
   tags = {
     Name = "main"
