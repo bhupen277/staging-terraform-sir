@@ -12,6 +12,5 @@ variable "project" {}
 
 variable "enviorment" {}
 
-variable "subnet_id" 
-}
+variable "subnet_id" {}
 
