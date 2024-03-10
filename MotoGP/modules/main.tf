@@ -12,5 +12,6 @@ resource "aws_subnet" "private_subnet" {
 
   tags = {
     Name = "${var.project}-private-subnet"
+    enviorment
   }
 }
