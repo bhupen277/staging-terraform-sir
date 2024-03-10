@@ -16,6 +16,6 @@ terraform {
 
 # now we are calling the module from that folder
 
-module "vpc" {
-  
+module "my_vpc_module" {
+  sou
 }
