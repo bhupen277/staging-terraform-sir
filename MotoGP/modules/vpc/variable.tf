@@ -1,1 +1,1 @@
-# Note: till no
+# Note: till now, we just declaring the project values here, but now we are 
