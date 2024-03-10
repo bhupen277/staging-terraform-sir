@@ -10,7 +10,7 @@ resource "aws_vpc" "my_vpc" {
 # here we creating the private subnet of our vpc & refering the vpc_id using attribute
 resource "aws_subnet" "private_subnet" {
   vpc_id     = aws_vpc.my_vpc.id
-  cidr_block = var.private_subnet.cidr
+  cidr_block = var.private_subnet_cidr
 
   tags = {
     Name = "${var.project}-private-subnet"
