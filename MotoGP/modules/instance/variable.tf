@@ -8,9 +8,7 @@ variable "sg_ids" {}
 
 variable "key_name" {}
 
-variable "project" {
-  
-}
+variable "project" {}
 
 variable "enviorment" {
   
