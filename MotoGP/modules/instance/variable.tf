@@ -1,3 +1,8 @@
 variable "count" {
 
 }
+
+variable "ami" {
+  
+}
+
