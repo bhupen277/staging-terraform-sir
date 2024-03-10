@@ -1,5 +1,5 @@
 resource "aws_instance" "foo" {
-  ami           = var.ami # us-west-2
+  ami           = var.image_id # us-west-2
   instance_type = "t2.micro"
 
   network_interface {
