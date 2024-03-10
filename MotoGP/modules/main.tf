@@ -1,4 +1,4 @@
-# here we create only resources and providers are defined into the 
+# here we create only resources and providers are defined into the projet
 resource "aws_vpc" "my_vpc" {
   cidr_block = "10.0.0.0/16"
   tags = {
