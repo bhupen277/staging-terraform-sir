@@ -10,7 +10,7 @@ variable "instance_type" {
   
 }
 
-variable "" {
+variable "sg" {
   
 }
 
