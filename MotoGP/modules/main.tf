@@ -14,3 +14,8 @@ terraform {
   }
 }
 
+# now we are calling the module from that folder
+
+module "vpc" {
+  
+}
