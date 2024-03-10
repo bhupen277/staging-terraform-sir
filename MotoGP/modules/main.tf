@@ -44,3 +44,7 @@ resource "aws_internet_gateway" "my_igw" {
     # aws_default_route_table: It will create using the pre existing mentioned vpc.id
     # aws_route_table: It will create a new route table
 
+  tags = {
+    Name = "${var.project}-private-subnet"
+    enviorment = var.enviorment
+  }
