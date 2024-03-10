@@ -12,3 +12,6 @@ variable "project" {}
 
 variable "enviorment" {}
 
+variable "subnet_id" 
+}
+
