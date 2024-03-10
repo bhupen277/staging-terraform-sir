@@ -5,4 +5,7 @@ variable "project" {}
 variable "vpc_cidr" {}
 variable "enviorment" {}
 variable "private_subnet_cidr" {}
-    
+   variable "public_subnet_cidr" {
+    type = string
+    description = "(optional) describe your variable"
+   } 
