@@ -20,6 +20,6 @@ module "my_vpc_module" {
   source = "./modules/vpc
   project = var.project
   vpc_cidr - var.vpc_cidr
-  
+  enviorment =
   
 }
