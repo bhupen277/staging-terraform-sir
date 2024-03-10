@@ -2,7 +2,7 @@
 #        will just initialize the variable & will pass the value from outside the vpc directory.
 
 variable "project" {}
-variable "vpc_" {}
+variable "vpc_cidr" {}
 variable "" {
   
 }
