@@ -7,5 +7,5 @@ resource "aws_instance" "foo" {
     Name = ${var.project}-instance
     enviorment = var.enviorment
   }
-  subnet_id = var.
+  subnet_id = var.subnet_id
 }
