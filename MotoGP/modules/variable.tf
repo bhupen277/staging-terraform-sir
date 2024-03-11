@@ -9,5 +9,5 @@ variable "vpc_cidr" {
 }
 
 variable "enviorment" {
-  default = PRO
+  default = "Production"
 }
