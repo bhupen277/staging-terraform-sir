@@ -3,6 +3,10 @@ variable "project" {
   description = "providing my project name"
 }
 
+variable "region" {
+  default = 
+}
+
 variable "vpc_cidr" {
   default = 10.0.0.0/16
   description = "providing my vpc ip"
