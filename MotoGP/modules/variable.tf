@@ -11,5 +11,9 @@ variable "vpc_cidr" {
 variable "enviorment" {
   default = "Production"
   description = "providing enviorment for my project"
-}   
+}
+
+variable "private_subnet_cidr" {
+  
+}
 
