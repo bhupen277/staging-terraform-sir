@@ -26,6 +26,7 @@ module "my_vpc_module" {
 }
 
 # anyway: here also we can create resource (security group)
+re
 
 
 # Instance creating in public subnet by calling o/p
