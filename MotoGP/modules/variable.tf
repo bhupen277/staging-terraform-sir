@@ -34,6 +34,7 @@ variable "ami" {
 }
 
 variable "instance_type" {
-  default = "t2"
+  default = "t2.micro"
+  description = "providing the server size "
 }
 
