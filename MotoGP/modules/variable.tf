@@ -28,7 +28,7 @@ variable "public_subnet_cidr" {
   description = "providing my public subnet module"
 }
 
-variable "count" {
+variable "instance_count" {
   default = 2
   description = "providing no of resources want to be create"
 }
