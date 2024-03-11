@@ -16,7 +16,7 @@ terraform {
 
 # now we are calling the module from that folder
 
-module "my_vpc_module" {
+module "my_vpc_module" {}
   source = "./modules/vpc
   project = var.project
   vpc_cidr = var.vpc_cidr
