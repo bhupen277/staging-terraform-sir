@@ -59,7 +59,9 @@ resource "aws_security_group" "my_sg" {
     cidr_block = ["0.0.0.0/0"]
   }
 
-
+  depends_on = [ 
+    my
+   ]
 
   tags = {
     Name = "allow_tls"
