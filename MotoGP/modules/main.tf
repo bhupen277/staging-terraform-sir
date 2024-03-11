@@ -68,7 +68,7 @@ resource "aws_security_group" "my_sg" {
 # Instance creating in public subnet by calling o/p
 module "my_instance" {
   source = "./modules/instance"
-  instance = var.instance_count
+  instance_cocount = var.instance_count
   ami = var.image_id
   instance_type = var.instance_type
   key_name = var.key_name
