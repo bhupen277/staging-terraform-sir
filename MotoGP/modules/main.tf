@@ -39,7 +39,7 @@ module "my_instance" {
 }
 
 # Instance creating in private subnet by calling o/p
-module "my_instance" {
+module "my_instance_private" {
   source = "./modules/instance"
   count = var.count
   ami = var.image_id
