@@ -60,7 +60,7 @@ resource "aws_security_group" "my_sg" {
   }
 
   depends_on = [ 
-    my
+    module.my_vpc_module
    ]
 
   tags = {
