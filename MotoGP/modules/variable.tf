@@ -28,7 +28,7 @@ variable "count" {
   description = "providing no of resources want to be create"
 }
 
-variable "" {
-  
+variable "ami" {
+  default = ""
 }
 
