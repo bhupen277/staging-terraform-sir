@@ -7,7 +7,7 @@ output "subnet_id" {
 }
 
 output "vpc_id" {
-  value = 
+  value = aws_vpc.my_vpc
 }
 
 # It is not neccessory to use call the both o/p, we call it according to requirement
