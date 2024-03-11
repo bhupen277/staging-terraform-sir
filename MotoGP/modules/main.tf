@@ -33,6 +33,6 @@ module "my_instance" {
   key_name = var.key_name
   project = var.project
   enviorment = var.enviorment
-  subnet_id = var.subnet_id
+  subnet_id = 
   sg_ids = var.sg_ids
 }
