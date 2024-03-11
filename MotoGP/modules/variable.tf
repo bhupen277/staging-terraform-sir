@@ -10,5 +10,6 @@ variable "vpc_cidr" {
 
 variable "enviorment" {
   default = "Production"
-  description = "providing my "
-}
+  description = "providing enviorment for my project"
+}   
+
