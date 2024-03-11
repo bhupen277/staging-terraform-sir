@@ -29,7 +29,10 @@ module "my_vpc_module" {
 resource "aws_security_group" "my_sg" {
   name        = "${var.project}-sg"
   description = "Allow TLS inbound traffic and all outbound traffic"
-  vpc_id      = aws_vpc.main.id
+  vpc_id      = module "name" {
+    source = ""
+    
+  }
 
   ingress = {
     protocol = "tcp"
