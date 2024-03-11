@@ -30,5 +30,10 @@ variable "count" {
 
 variable "ami" {
   default = ""
+  description = "providing the image id to for server creation"
+}
+
+variable "instance_type" {
+  
 }
 
