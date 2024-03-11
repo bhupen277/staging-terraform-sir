@@ -39,6 +39,8 @@ variable "instance_type" {
 }
 
 variable "key_name" {
-  default = 
+  default = "windows_global_key"
 }
+
+
 
