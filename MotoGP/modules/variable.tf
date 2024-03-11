@@ -28,10 +28,7 @@ variable "public_subnet_cidr" {
   description = "providing my public subnet module"
 }
 
-variable "count" {
-  default = 2
-  description = "providing no of resources want to be create"
-}
+#
 
 variable "ami" {
   default = "ami-0eb5115914ccc4bc2"
