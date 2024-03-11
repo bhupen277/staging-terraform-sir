@@ -26,7 +26,7 @@ module "my_vpc_module" {
 }
 
 # anyway: here also we can create resource (security group)
-resource "aws_security_group" "name" {
+resource "aws_security_group" "my_sg" {
   
 }
 
