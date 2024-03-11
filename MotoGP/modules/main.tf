@@ -53,6 +53,13 @@ resource "aws_security_group" "my_sg" {
     cidr_block = ["0.0.0.0/0"]
   }
 
+    ingress = {
+    protocol = "tcp"
+    from_port = 22
+    to_port = 22
+    cidr_block = ["0.0.0.0/0"]
+  }
+  
   tags = {
     Name = "allow_tls"
   }
