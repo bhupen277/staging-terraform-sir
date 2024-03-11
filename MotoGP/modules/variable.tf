@@ -4,7 +4,7 @@ variable "project" {
 }
 
 variable "region" {
-  default = us-west-2
+  default = "us-west-2"
 }
 
 variable "vpc_cidr" {
