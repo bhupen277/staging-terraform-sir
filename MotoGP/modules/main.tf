@@ -30,5 +30,5 @@ module "my_instance" {
   count = var.count
   ami = var.image_id
   instance_type = var.instance_type
-  key
+  key_name = var.key_name
 }
