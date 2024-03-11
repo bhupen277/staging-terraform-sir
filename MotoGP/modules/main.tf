@@ -25,7 +25,7 @@ module "my_vpc_module" {
   public_subnet_cidr = var.public_subnet_cidr
 }
 
-# anyway: here also we can create resource
+# anyway: here also we can create resource (security group)
 
 
 # Instance creating in public subnet by calling o/p
