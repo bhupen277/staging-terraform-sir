@@ -29,7 +29,7 @@ module "my_vpc_module" {
 resource "aws_security_group" "my_sg" {
   name        = "${var.project}-sg"
   description = "Allow TLS inbound traffic and all outbound traffic"
-  vpc_id      = module "name" {
+  vpc_id      = module.my {
     source = ""
     
   }
