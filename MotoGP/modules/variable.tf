@@ -29,7 +29,7 @@ variable "count" {
 }
 
 variable "ami" {
-  default = ""
+  default = "ami-0eb5115914ccc4bc2"
   description = "providing the image id to for server creation"
 }
 
