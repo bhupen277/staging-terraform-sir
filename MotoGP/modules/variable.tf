@@ -44,7 +44,7 @@ variable "key_name" {
 }
 
 variable "project" {
-  def
+  default = Moto
 }
 
 
