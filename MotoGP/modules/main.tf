@@ -25,6 +25,9 @@ module "my_vpc_module" {
   public_subnet_cidr = var.public_subnet_cidr
 }
 
+
+
+
 # Instance creating in public subnet by calling o/p
 module "my_instance" {
   source = "./modules/instance"
