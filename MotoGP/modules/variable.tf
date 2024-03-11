@@ -24,6 +24,6 @@ variable "public_subnet_cidr" {
 }
 
 variable "count" {
-  default = 
+  default = 2
 }
 
