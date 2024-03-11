@@ -32,5 +32,6 @@ module "my_instance" {
   instance_type = var.instance_type
   key_name = var.key_name
   project = var.project
-  enviorment 
+  enviorment = var.enviorment
+  
 }
