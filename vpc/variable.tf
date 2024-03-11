@@ -1,4 +1,4 @@
-variable "region" {
-  type = string
-  description = "providing my refion for project"
-}
+# variable "region" {
+#   type = string
+#   description = "providing my refion for project"
+# }
