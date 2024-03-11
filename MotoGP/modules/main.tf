@@ -81,7 +81,7 @@ module "my_instance" {
 # # Instance creating in private subnet by calling o/p
 # module "my_instance_private" {
 #   source = "./modules/instance"
-#   count = var.count
+#   instance_cocount = var.instance_count
 #   ami = var.image_id
 #   instance_type = var.instance_type
 #   key_name = var.key_name
