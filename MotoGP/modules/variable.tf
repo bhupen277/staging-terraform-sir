@@ -40,7 +40,11 @@ variable "instance_type" {
 
 variable "key_name" {
   default = "windows_global_key"
-  description = "providing the key to "
+  description = "providing the key key pair to my server "
+}
+
+variable "" {
+  
 }
 
 
