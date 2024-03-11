@@ -47,10 +47,10 @@ resource "aws_security_group" "my_sg" {
   }
 
   ingress = {
-    protocol = "tcp"
-    from_port = 22
-    to_port = 22
-    cidr_block = ["0.0.0.0/0"]
+  protocol = "tcp"
+  from_port = 22
+  to_port = 22
+  cidr_block = ["0.0.0.0/0"]
   }
 
     ingress = {
