@@ -43,9 +43,7 @@ variable "key_name" {
   description = "providing the key key pair to my server "
 }
 
-variable "project" {
-  default = "MotoGP-Prod"
-}
+
 
 
 
