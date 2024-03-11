@@ -27,7 +27,7 @@ module "my_vpc_module" {
 
 # anyway: here also we can create resource (security group)
 resource "aws_security_group" "my_sg" {
-  name        = "$()"
+  name        = "$var.project-sg"
   description = "Allow TLS inbound traffic and all outbound traffic"
   vpc_id      = aws_vpc.main.id
 
