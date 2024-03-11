@@ -6,7 +6,7 @@ output "subnet_id" {
   value = "aws_subnet.public_subnet_id"
 }
 
-output "my_vpc_module" {
+output "vpc_id" {
   value = 
 }
 
