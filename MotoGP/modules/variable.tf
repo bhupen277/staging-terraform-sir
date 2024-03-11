@@ -38,3 +38,7 @@ variable "instance_type" {
   description = "providing the server size to my instance"
 }
 
+variable "key_name" {
+  default = 
+}
+
