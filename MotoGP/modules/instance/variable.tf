@@ -1,4 +1,4 @@
-#variable "count" {}
+# variable "count" {}
 
 variable "image_id" {}
 
