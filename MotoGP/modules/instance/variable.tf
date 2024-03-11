@@ -1,4 +1,4 @@
-variable "count" {}
+variable "instance_count" {}
 
 variable "image_id" {}
 
