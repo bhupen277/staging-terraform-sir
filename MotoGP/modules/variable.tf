@@ -15,6 +15,10 @@ variable "enviorment" {
 
 variable "private_subnet_cidr" {
   default = 10.0.16.0/20
-  description = "p"
+  description = "providing my private subnet cidr"
+}
+
+variable "" {
+  
 }
 
