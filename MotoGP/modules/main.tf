@@ -28,6 +28,6 @@ module "my_vpc_module" {
 module "my_instance" {
   source = "./modules/instance"
   count = var.count
-  ami = image_id
+  ami = var.image_id
   
 }
