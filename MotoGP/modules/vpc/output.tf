@@ -1,3 +1,3 @@
 output "subnet_id" {
-  value = ""
+  value = "aws_subnet.id"
 }
