@@ -33,6 +33,6 @@ module "my_instance" {
   key_name = var.key_name
   project = var.project
   enviorment = var.enviorment
-  subnet_id =     # it will create from vpc
+  subnet_id =     # it will create from vpc, 
   sg_ids = 
 }
