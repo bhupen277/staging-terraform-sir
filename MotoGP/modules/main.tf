@@ -25,4 +25,6 @@ module "my_vpc_module" {
   public_subnet_cidr = var.public_subnet_cidr
 }
 
-module "my"
+module "my_instance" {
+  
+}
