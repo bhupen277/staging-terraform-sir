@@ -44,7 +44,7 @@ variable "key_name" {
 }
 
 variable "project" {
-  default = Moto
+  default = "MotoGP-Prod"
 }
 
 
