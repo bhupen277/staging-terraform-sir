@@ -25,5 +25,6 @@ variable "public_subnet_cidr" {
 
 variable "count" {
   default = 2
+  description = "providing no of resource"
 }
 
