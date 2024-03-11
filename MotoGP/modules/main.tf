@@ -32,6 +32,10 @@ resource "aws_security_group" "my_sg" {
 #  vpc_id      = aws_vpc.main.id
   vpc_id      = resource.aws_vpc.my_vpc.id
 
+  ingress = {
+    
+  }
+
   tags = {
     Name = "allow_tls"
   }
