@@ -65,7 +65,6 @@ resource "aws_security_group" "my_sg" {
 }
 
 
-
 # Instance creating in public subnet by calling o/p
 module "my_instance" {
   source = "./modules/instance"
