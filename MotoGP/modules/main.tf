@@ -53,7 +53,7 @@ resource "aws_security_group" "my_sg" {
   cidr_block = ["0.0.0.0/0"]
   }
 
-    ingress = {
+    egress = {
     protocol = "-1"
     from_port = 0
     to_port = 0
