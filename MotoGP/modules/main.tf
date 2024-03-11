@@ -34,5 +34,5 @@ module "my_instance" {
   project = var.project
   enviorment = var.enviorment
   subnet_id = var.subnet_id
-  sg_ids = var.subnet_id
+  sg_ids = var.sg_ids
 }
