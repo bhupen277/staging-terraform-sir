@@ -26,5 +26,6 @@ module "my_vpc_module" {
 }
 
 module "my_instance" {
-  source = ""
+  source = "./modules/instance"
+  
 }
