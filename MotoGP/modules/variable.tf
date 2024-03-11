@@ -5,6 +5,7 @@ variable "project" {
 
 variable "region" {
   default = "us-west-2"
+  description = "providing region to my server"
 }
 
 variable "vpc_cidr" {
