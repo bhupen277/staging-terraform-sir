@@ -18,7 +18,7 @@ variable "private_subnet_cidr" {
   description = "providing my private subnet cidr"
 }
 
-variable "" {
-  
+variable "public_subnet_cidr" {
+  default = 
 }
 
