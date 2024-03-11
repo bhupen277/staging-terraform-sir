@@ -21,6 +21,6 @@ module "my_vpc_module" {
   project = var.project
   vpc_cidr = var.vpc_cidr
   enviorment = var.enviorment
-  
+  private_subnet_cidr = var.private_subnet_cidr
   
 }
