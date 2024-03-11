@@ -33,7 +33,10 @@ resource "aws_security_group" "my_sg" {
   vpc_id      = resource.aws_vpc.my_vpc.id
 
   ingress = {
-    protocol 
+    protocol = "tcp"
+    from_port = 80
+    to_port = 80
+    cidr_block =
   }
 
   tags = {
