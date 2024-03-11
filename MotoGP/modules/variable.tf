@@ -8,6 +8,6 @@ variable "vpc_cidr" {
   description = "providing my vpc ip"
 }
 
-variable "" {
-  
+variable "enviorment" {
+  default = PRO
 }
