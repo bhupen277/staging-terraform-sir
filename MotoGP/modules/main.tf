@@ -26,7 +26,9 @@ module "my_vpc_module" {
 }
 
 # anyway: here also we can create resource (security group)
-re
+resource "aws_security_group" "name" {
+  
+}
 
 
 # Instance creating in public subnet by calling o/p
